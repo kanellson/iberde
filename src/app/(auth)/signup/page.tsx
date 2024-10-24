@@ -1,4 +1,5 @@
 import { SignupForm } from "@/_components/auth/auth-signup-form";
+import { Logo } from "@/_components/ui/logo";
 import { CodeXml } from "lucide-react";
 import Link from "next/link";
 
@@ -6,12 +7,11 @@ export default function Signup() {
   return (
     <div className="w-full h-screen relative">
       <div className="efect_shadow-r"></div>
-      <div className="max-w-lg mx-auto pt-12 py-6 px-6 rounded-md">
-        <div className="flex items-center flex-col">
-          <h1 className="font_Marcellus-logo flex gap-2 items-center text-[3rem] text-gray-300 ">
-            <CodeXml size={50} />
-            <strong className="text-cyan-600 font-semibold">iberdi</strong>{" "}
-            seven
+      <div className="max-w-lg mx-auto py-6 px-6 rounded-md">
+        <div className="flex items-center flex-col mt-6">
+          <h1 className="flex gap-2 items-center">
+            <CodeXml size={40} />
+            <Logo fontLogo="font-2" />
           </h1>
           <h2 className="mt-10 text-lg ">Acesse sua conta</h2>
         </div>

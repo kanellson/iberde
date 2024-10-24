@@ -1,16 +1,11 @@
-import Image from "next/image";
+import { Logo } from "@/_components/ui/logo";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="flex justify-center mt-12">
       <Link href="/main">
-        <Image
-          src="/images/loho.png"
-          width={180}
-          height={40}
-          alt="Logo iberde"
-        />
+        <Logo fontLogo="font-3" />
       </Link>
     </div>
   );

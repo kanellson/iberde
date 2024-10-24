@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "iberde | social igrejas",
-  description: "Social ibedi iasd",
+  title: "iberde | social iasd",
+  description: "iberde social iasd",
 };
 
 export default function RootLayout({
